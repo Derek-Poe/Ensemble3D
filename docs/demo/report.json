@@ -1,0 +1,53 @@
+{
+  "recorded_utc": "2026-10-18T01:35:42.824604+00:00",
+  "synthetic": true,
+  "workers": 2,
+  "max_pending": 4,
+  "original_preserved": true,
+  "versions": [
+    {
+      "label": "Original synthetic cube",
+      "sha256": "f6d1cd252b7838512a91166787694e8c977d0c71c5c73d683491a0de6f827f22",
+      "file": "original.glb",
+      "edge_length_m": 1.0,
+      "version_id": "ver_1e410c8b9f9e",
+      "parent_version_id": null
+    },
+    {
+      "label": "Scaled cube",
+      "sha256": "e1311c1c97448b815b3f6a27c5ffd92076d5cb54995649be44e9edfe0d892393",
+      "file": "scaled.glb",
+      "edge_length_m": 1.5,
+      "version_id": "ver_9982ade51842",
+      "parent_version_id": "ver_1e410c8b9f9e"
+    }
+  ],
+  "current_version_id": "ver_9982ade51842",
+  "recovered_jobs": 2,
+  "jobs": [
+    {
+      "id": "job_77e0e4838eb2",
+      "kind": "generate",
+      "status": "done",
+      "stage": "completed"
+    },
+    {
+      "id": "job_e9e4147d5b51",
+      "kind": "scale",
+      "status": "done",
+      "stage": "completed"
+    },
+    {
+      "id": "job_aba3a3a40dcf",
+      "kind": "crash_probe",
+      "status": "error",
+      "stage": "interrupted"
+    },
+    {
+      "id": "job_e89f334b2ea4",
+      "kind": "queued_probe",
+      "status": "error",
+      "stage": "interrupted"
+    }
+  ]
+}
